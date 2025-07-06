@@ -15,6 +15,7 @@
 - **開発モードON/OFF**: development.mdのSTATUSを切り替え
 - **ドキュメンテーションモードON/OFF**: documentation.mdのSTATUSを切り替え
 - **進捗管理モードON/OFF**: progress_management.mdのSTATUSを切り替え
+- **インタラクティブ企画モードON/OFF**: interactive_mode.mdのSTATUSを切り替え
 
 ### 常時適用設定
 - **project_config.md**: プロジェクト固有の設定（常にON）
@@ -22,6 +23,7 @@
 
 ## 📂 利用可能なテンプレート
 - `docs/claude_templates/project_kickoff.md` - **プロジェクト開始時の概要テンプレート**
+- `docs/claude_templates/interactive_project_planning.md` - **インタラクティブ・プロジェクト企画**
 - `docs/claude_templates/basic.md` - 基本的なプロジェクト
 - `docs/claude_templates/develop.md` - 開発プロジェクト
 - `docs/claude_templates/english_learning.md` - 英語学習プロジェクト
