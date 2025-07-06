@@ -16,6 +16,7 @@
 - **ドキュメンテーションモードON/OFF**: documentation.mdのSTATUSを切り替え
 - **進捗管理モードON/OFF**: progress_management.mdのSTATUSを切り替え
 - **インタラクティブ企画モードON/OFF**: interactive_mode.mdのSTATUSを切り替え
+- **システム解析モードON/OFF**: system_analysis.mdのSTATUSを切り替え
 
 ### 常時適用設定
 - **project_config.md**: プロジェクト固有の設定（常にON）
