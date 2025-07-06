@@ -13,7 +13,7 @@
 - **進捗管理モード** (`progress_management.md`) - タスク管理機能
 
 ### 2. 豊富なテンプレート
-様々なプロジェクトタイプに対応したテンプレートを提供：
+様々なプロジェクトタイプに対応したテンプレートを提供（`docs/claude_templates/`内）：
 - `basic.md` - 基本的なプロジェクト
 - `develop.md` - ソフトウェア開発プロジェクト
 - `english_learning.md` - 英語学習プロジェクト
@@ -21,6 +21,8 @@
 - `microservices.md` - マイクロサービスアーキテクチャ
 - `mobile-app.md` - モバイルアプリケーション開発
 - `webapp.md` - Webアプリケーション開発
+- `sample.md` - サンプルテンプレート
+- `toplevel.md` - トップレベルプロジェクト
 
 ## ディレクトリ構成
 ```
@@ -34,9 +36,18 @@ claudeSetting/
 │   ├── progress_management.md # 進捗管理設定
 │   ├── project_config.md   # プロジェクト固有設定（常時ON）
 │   └── strict_rules.md     # 厳守ルール（常時ON）
-├── claude_templates/       # プロジェクトテンプレート
 └── docs/                   # ドキュメント
     ├── CLAUDE_TIPS.md      # 使い方のヒント
+    ├── claude_templates/   # プロジェクトテンプレート
+    │   ├── basic.md
+    │   ├── develop.md
+    │   ├── english_learning.md
+    │   ├── machine-learning.md
+    │   ├── microservices.md
+    │   ├── mobile-app.md
+    │   ├── sample.md
+    │   ├── toplevel.md
+    │   └── webapp.md
     └── design/
         └── principles.md   # 設計原則
 ```

@@ -21,13 +21,15 @@
 - **strict_rules.md**: 厳守ルール（常にON）
 
 ## 📂 利用可能なテンプレート
-- `claude_templates/basic.md` - 基本的なプロジェクト
-- `claude_templates/develop.md` - 開発プロジェクト
-- `claude_templates/english_learning.md` - 英語学習プロジェクト
-- `claude_templates/machine-learning.md` - 機械学習プロジェクト
-- `claude_templates/microservices.md` - マイクロサービス
-- `claude_templates/mobile-app.md` - モバイルアプリ
-- `claude_templates/webapp.md` - Webアプリケーション
+- `docs/claude_templates/basic.md` - 基本的なプロジェクト
+- `docs/claude_templates/develop.md` - 開発プロジェクト
+- `docs/claude_templates/english_learning.md` - 英語学習プロジェクト
+- `docs/claude_templates/machine-learning.md` - 機械学習プロジェクト
+- `docs/claude_templates/microservices.md` - マイクロサービス
+- `docs/claude_templates/mobile-app.md` - モバイルアプリ
+- `docs/claude_templates/webapp.md` - Webアプリケーション
+- `docs/claude_templates/sample.md` - サンプルテンプレート
+- `docs/claude_templates/toplevel.md` - トップレベルプロジェクト
 
 ## 📚 追加情報
 - **設計原則**: `docs/design/principles.md`
