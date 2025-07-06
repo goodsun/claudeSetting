@@ -11,13 +11,13 @@
 
 ## 使用方法
 1. このテンプレートをプロジェクトのCLAUDE.mdにコピー
-2. configs/english_learning.mdの設定を確認
+2. claude_configs/english_learning.mdの設定を確認
 3. 「英語学習モードON」で機能を有効化
 
 ## 必要な設定ファイル
-- configs/english_learning.md
-- configs/project_config.md
-- configs/strict_rules.md
+- claude_configs/english_learning.md
+- claude_configs/project_config.md
+- claude_configs/strict_rules.md
 
 ## サンプル使用例
 ```
