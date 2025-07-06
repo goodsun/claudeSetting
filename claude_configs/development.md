@@ -1,6 +1,6 @@
 # Development Configuration
 
-## STATUS: OFF
+## STATUS: ON
 <!-- このセクションがOFFの場合、以下の内容は無視してください -->
 
 ## 🎯 Development Mode Settings

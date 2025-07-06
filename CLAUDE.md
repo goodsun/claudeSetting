@@ -21,6 +21,7 @@
 - **strict_rules.md**: 厳守ルール（常にON）
 
 ## 📂 利用可能なテンプレート
+- `docs/claude_templates/project_kickoff.md` - **プロジェクト開始時の概要テンプレート**
 - `docs/claude_templates/basic.md` - 基本的なプロジェクト
 - `docs/claude_templates/develop.md` - 開発プロジェクト
 - `docs/claude_templates/english_learning.md` - 英語学習プロジェクト
