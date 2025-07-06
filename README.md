@@ -23,6 +23,7 @@
 - `webapp.md` - Webアプリケーション開発
 - `sample.md` - サンプルテンプレート
 - `toplevel.md` - トップレベルプロジェクト
+- `web3cdk.md` - Web3 CDK開発プロジェクト
 
 ## ディレクトリ構成
 ```

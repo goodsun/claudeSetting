@@ -30,6 +30,7 @@
 - `docs/claude_templates/webapp.md` - Webアプリケーション
 - `docs/claude_templates/sample.md` - サンプルテンプレート
 - `docs/claude_templates/toplevel.md` - トップレベルプロジェクト
+- `docs/claude_templates/web3cdk.md` - Web3 CDK開発プロジェクト
 
 ## 📚 追加情報
 - **設計原則**: `docs/design/principles.md`
