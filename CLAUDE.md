@@ -18,13 +18,13 @@
 
 ### 設定制御
 モードの切り替えは`claude_configs/mode_setting.md`で行ってください：
-- **英語学習モード**: english_learning.mdの適用制御
-- **開発モード**: development.mdの適用制御
-- **ドキュメンテーションモード**: documentation.mdの適用制御
-- **進捗管理モード**: progress_management.mdの適用制御
-- **インタラクティブ企画モード**: interactive_mode.mdの適用制御
-- **システム解析モード**: system_analysis.mdの適用制御
-- **対話設定モード**: talk_settings.mdの適用制御
+- **English（英語学習モード）**: english_learning.mdの適用制御
+- **Dev（開発モード）**: development.mdの適用制御
+- **Docs（ドキュメンテーションモード）**: documentation.mdの適用制御
+- **Track（進捗管理モード）**: progress_management.mdの適用制御
+- **Plan（インタラクティブ企画モード）**: interactive_mode.mdの適用制御
+- **Analyze（システム解析モード）**: system_analysis.mdの適用制御
+- **Talk（発言モード）**: talk_settings.mdの適用制御
 
 ### 常時適用設定
 - **project_config.md**: プロジェクト固有の設定（常にON）
