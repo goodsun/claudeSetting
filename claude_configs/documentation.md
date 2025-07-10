@@ -1,6 +1,5 @@
 # Documentation Configuration
 
-## STATUS: OFF
 <!-- このセクションがOFFの場合、以下の内容は無視してください -->
 
 ## ドキュメンテーション機能

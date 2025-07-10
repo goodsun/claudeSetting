@@ -56,6 +56,8 @@ claudeSetting/
 ├── CLAUDE.md                # メイン設定ファイル
 ├── README.md               # このファイル
 ├── claude_configs/         # 動的設定ファイル
+│   ├── mode_setting.md     # モード設定（個人用・要作成）
+│   ├── mode_setting.md.sample # モード設定テンプレート
 │   ├── english_learning.md # 英語学習設定
 │   ├── development.md      # 開発設定
 │   ├── documentation.md    # ドキュメント設定
@@ -81,6 +83,22 @@ claudeSetting/
         └── principles.md   # 設計原則
 ```
 
+## 🚀 初回セットアップ（重要）
+
+### ステップ1: 設定ファイルの準備
+```bash
+# 設定ファイルをコピー
+cp claude_configs/mode_setting.md.sample claude_configs/mode_setting.md
+```
+
+### ステップ2: 設定の確認・調整
+`claude_configs/mode_setting.md`を開いて、各モードのON/OFF状態を確認・調整してください。
+
+### ステップ3: Claude Codeを起動
+```bash
+claude-code
+```
+
 ## 使い方
 
 ### 1. 🚀 新規プロジェクト開始（推奨）
@@ -96,20 +114,23 @@ claude-code
 
 ### 2. 📋 既存プロジェクト向け
 1. プロジェクトの目的に合わせてテンプレートを選択
-2. 必要に応じて`claude_configs/`内の設定をON/OFFに切り替え
+2. 必要に応じて`claude_configs/mode_setting.md`内の設定をON/OFFに切り替え
 3. Claude Codeを起動して作業開始
 
 ### 3. ⚙️ 設定の切り替え方法
-各設定ファイルの冒頭にある`## STATUS: ON`または`## STATUS: OFF`を編集することで、機能の有効/無効を切り替えられます。
+`claude_configs/mode_setting.md`内の各モードのSTATUSを`ON`または`OFF`に変更することで、機能の有効/無効を切り替えられます。
 
 例：英語学習モードをOFFにする場合
 ```markdown
-## STATUS: OFF
+### 英語学習モード
+- **ファイル**: english_learning.md
+- **STATUS**: OFF
 ```
 
 ### 4. 🎯 推奨設定パターン
 
 #### スタートアップ・MVP開発
+`mode_setting.md`内で以下のように設定：
 ```
 english_learning: OFF
 development: ON (高速モード)
@@ -118,6 +139,7 @@ progress_management: ON
 ```
 
 #### エンタープライズ開発
+`mode_setting.md`内で以下のように設定：
 ```
 development: ON (慎重モード)
 documentation: ON
@@ -126,6 +148,7 @@ interactive_mode: OFF
 ```
 
 #### 学習・実験プロジェクト
+`mode_setting.md`内で以下のように設定：
 ```
 english_learning: ON
 development: ON (高速モード)
@@ -139,9 +162,11 @@ documentation: OFF
 - 新しいテンプレートを`claude_templates/`に追加可能
 
 ## 注意事項
+- **初回利用時**: 必ず`mode_setting.md.sample`を`mode_setting.md`にコピーしてください
 - 常時適用設定（`project_config.md`、`strict_rules.md`）は常にON状態です
 - 複数の設定が競合する場合は、優先順位に従って適用されます
 - Claude Codeは設定ファイルに従って日本語で応答します（CLAUDE.mdの指示による）
+- `mode_setting.md`はgit管理対象外です（個人設定のため）
 
 ## 🎉 主な効果・メリット
 

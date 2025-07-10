@@ -1,6 +1,5 @@
 # System Analysis & Documentation Configuration
 
-## STATUS: OFF
 <!-- このセクションがOFFの場合、以下の内容は無視してください -->
 
 ## システム解析・ドキュメント化機能

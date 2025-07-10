@@ -1,6 +1,5 @@
 # Talk Settings Configuration
 
-## STATUS: OFF
 <!-- このセクションがOFFの場合、以下の内容は無視してください -->
 
 ## 音声出力機能

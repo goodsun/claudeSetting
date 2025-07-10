@@ -1,6 +1,5 @@
 # English Learning Configuration
 
-## STATUS: ON
 <!-- このセクションがOFFの場合、以下の内容は無視してください -->
 
 ## 英語学習機能
